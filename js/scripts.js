@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $(".btn").submit(function(event) {
+  $(".btn").click(function(event) {
     event.preventDefault()
     const person = $("input#name").val();
     const gender = $("select#gender").val();
@@ -9,19 +9,17 @@ $(document).ready(function() {
     const question6 = $("#select#yes-question6")
 
     $(".name").text(person);
-    $("#app").show();
-    $("#html").show();
-    $("#python").show();
-    $("#csharp").show();
-    $("#javascript").show();
-    $("#react").show();
-    
-    if (gender === 'male' || 'female' && question2 < yes);
-    if (gener === 'male' || 'female' && question2 > yes);
 
-    if (gender === 'male' || 'female' && question3  );
-    if (gender === 'male' || 'female' && question5 );
-    if (gender === 'male' || 'female' && question6 );
+    if (gender === 'male' && 'female' && question2 >= yes);
+      $("#python").show(); $("#app").show();
+      if (gender === 'male' && 'female' && question3 < yes);
+      $("#javascript").show(); $("#app").show();
+    if (gender === 'male' && 'female' && question3 >= yes);
+      $("#html").show(); $("#app").show();
+    if (gender === 'male' && 'female' && question5 >= yes);
+      $("#react").show(); $("#app").show();
+    if (gender === 'male' && 'female' && question6 >= yes);
+      $("#csharp").show(); $("#app").show();
     });
 });
 
