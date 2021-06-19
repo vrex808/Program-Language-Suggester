@@ -10,16 +10,10 @@ $(document).ready(function() {
 
     $(".name").text(person);
 
-    if (gender === 'male' && 'female' && question2 >= yes);
+    if (gender === 'male' && 'female' && question2 && question3 && question6 >= yes);
       $("#python").show(); $("#app").show();
-      if (gender === 'male' && 'female' && question3 < yes);
+      if (gender === 'male' && 'female' && question2 && question3 && question5 && question6 >= no);
       $("#javascript").show(); $("#app").show();
-    if (gender === 'male' && 'female' && question3 >= yes);
-      $("#html").show(); $("#app").show();
-    if (gender === 'male' && 'female' && question5 >= yes);
-      $("#react").show(); $("#app").show();
-    if (gender === 'male' && 'female' && question6 >= yes);
-      $("#csharp").show(); $("#app").show();
+  
     });
 });
-
