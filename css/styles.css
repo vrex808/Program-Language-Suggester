@@ -1,6 +1,11 @@
 .form-control {
-  width: 800px;
+  width: 960px;
 }
+
+body {
+  background-color: lightblue;
+}
+
 #app {
   display: none;
 }
@@ -27,4 +32,17 @@
 
 .btn {
   background-color: lightgray;
+  color: darkkhaki;
+}
+
+h1 {
+  color: maroon;
+  font-family: impact;
+  text-align: center;
+}
+
+h3 {
+  color: crimson;
+  font-family: Tahoma;
+  text-align: center;
 }
