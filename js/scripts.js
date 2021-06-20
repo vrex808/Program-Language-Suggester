@@ -7,29 +7,29 @@ $(document).ready(function() {
     let question3 = $("select#question3").val();
     let question5 = $("select#quesiton5").val();
     let question6 = $("select#question6").val();
-    const no = question2 && question3 && question5 && question6
 
     $(".name").text(person);
 
-    if (question2 >= "select#question2") {
-      $("#csharp").show(); 
-      $("#app").show();
-    
-    } else if (question2 > "select#question3") {
-      $("#python").show(); 
-      $("#app").show();
-    }
-
-    if (question6 >= "select#question6") {
-      $("#html").show(); 
-      $("#app").show();
-
-    } else if (question2 && question3 && question5 && question6 <= no) {
+    if (question2 == "no" && question3 == "no" && question5 == "no" && question6 == "no") {
       $("#javascript").show(); 
       $("#app").show();
+
+    } else if (question2 == "yes") {
+      $("#csharp").show(); 
+      $("#app").show();
+    }
+    
+    if (question3 == "yes") {
+      $("#python").show(); 
+      $("#app").show();
+    
+
+    } else if (question6 >= "yes") {
+      $("#html").show(); 
+      $("#app").show();
     }
 
-    if (question5 >= "select#question5");
+    if (question5 >= "yes");
       $("#react").show(); 
       $("#app").show();
     
