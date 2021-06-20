@@ -19,17 +19,17 @@ $(document).ready(function() {
       $("#app").show();
     }
     
-    } else if (question3 == "yes") {
+    else if (question3 == "yes") {
       $("#python").show(); 
       $("#app").show();
     }
 
-    } else if (question6 == "yes") {
+    else if (question6 == "yes") {
       $("#html").show(); 
       $("#app").show();
     }
 
-    } else if (question5 == "yes"); {
+    else if (question5 == "yes"); {
       $("#react").show(); 
       $("#app").show();
     }
