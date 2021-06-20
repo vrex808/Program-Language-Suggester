@@ -4,9 +4,9 @@ $(document).ready(function() {
     clearDivs();
     const person = $("input#name").val();
     let question2 = $("select#question2").val();
-    let question3 = $("select#question3").val();
-    let question5 = $("select#quesiton5").val();
-    let question6 = $("select#question6").val();
+    let question3 = $("select#yes-question3").val();
+    let question5 = $("select#yes-quesiton5").val();
+    let question6 = $("select#yes-question6").val();
 
     $(".name").text(person);
 
