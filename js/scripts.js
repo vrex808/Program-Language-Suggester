@@ -14,22 +14,22 @@ $(document).ready(function() {
       $("#javascript").show(); 
       $("#app").show();
 
-    } else if (question2 == "yes" && question3 == "yes" && question5 == "yes" question6 == "yes") {
+    } else if (question2 == "yes" && question3 == "yes" && question5 == "yes" && question6 == "yes") {
       $("#csharp").show(); 
       $("#app").show();
     }
     
-    if (question3 == "yes") {
+    } else if (question3 == "yes") {
       $("#python").show(); 
       $("#app").show();
-    
+    }
 
-    if (question6 == "yes") {
+    } else if (question6 == "yes") {
       $("#html").show(); 
       $("#app").show();
     }
 
-    if (question5 == "yes"); {
+    } else if (question5 == "yes"); {
       $("#react").show(); 
       $("#app").show();
     }
