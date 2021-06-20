@@ -89,8 +89,8 @@ h2 {
 }
 
 img {
-  float: it center;
+  float: center;
   border: 5px;
   box-sizing: border-box;
-  margin 5px;
+  margin: 5px;
 }
