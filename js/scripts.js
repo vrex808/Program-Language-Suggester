@@ -14,7 +14,7 @@ $(document).ready(function() {
       $("#javascript").show(); 
       $("#app").show();
 
-    } else if (question2 == "yes") {
+    } else if (question2 == "yes" && question3 == "yes" && question5 == "yes" question6 == "yes") {
       $("#csharp").show(); 
       $("#app").show();
     }
@@ -24,15 +24,15 @@ $(document).ready(function() {
       $("#app").show();
     
 
-    } else if (question6 >= "yes") {
+    if (question6 == "yes") {
       $("#html").show(); 
       $("#app").show();
     }
 
-    if (question5 >= "yes");
+    if (question5 == "yes"); {
       $("#react").show(); 
       $("#app").show();
-    
+    }
 
     });
 });
