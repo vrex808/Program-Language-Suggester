@@ -1,26 +1,41 @@
 $(document).ready(function() {
   $(".btn").click(function(event) {
     event.preventDefault();
+    clearDivs();
     const person = $("input#name").val();
-    const gender = $("select#gender").val();
-    const question2 = $("select#yes-question2").val();
-    const question3 = $("select#yes-qeustion3").val();
-    const question5 = $("select#yes-question5").val();
-    const question6 = $("#select#yes-question6").val();
+    const gender = $("input#gender").val();
+    let question2 = $("select#question2").val();
+    let question3 = $("select#question3").val();
+    let question5 = $("select#quesiton5").val();
+    let question6 = $("select#question6").val();
+    let no = $("select#question2, question3, question5, question6").val();
+    
 
     $(".name").text(person);
 
-    if (gender === 'male' && 'female' && question2 === yes);
+    if (question2 === "select#question2"); 
       $("#csharp").show(); $("#app").show();
-    if (gender === 'male' && 'female' && question3 === yes);
+    
+    if (question3 === "select#question3");
       $("#python").show(); $("#app").show();
-    if (gender === 'male' && 'female' && question6 === yes);
+
+    if (question6 === "select#question6");
       $("#html").show(); $("#app").show();
-    if (gender === 'male' && 'female' && question2 && question3 && question5 && question6 === no);
+
+    if (question2 && question3 && question5 && question6 === no);
       $("#javascript").show(); $("#app").show();
-    if (gender === 'male' && 'female' && question5 === yes);
+
+    if (question5 === "select#question5");
       $("#react").show(); $("#app").show();
+    
 
     });
 });
 
+function clearDivs() {
+  $("#html").hide();
+  $("#python").hide();
+  $("#csharp").hide();
+  $("#javascript").hide();
+  $("#react").hide();
+}
