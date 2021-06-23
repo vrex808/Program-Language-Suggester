@@ -60,7 +60,7 @@ body {
   box-sizing: border-box;
   padding: 10px;
   font-weight: 600;
-  width: 90%;
+  width: 60%;
   border: 6px solid yellow;
   margin: auto;
 }
@@ -93,4 +93,8 @@ img {
   border: 5px;
   box-sizing: border-box;
   margin: 5px;
+}
+
+#answer {
+  display: none;
 }

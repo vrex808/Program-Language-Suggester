@@ -5,7 +5,7 @@ $(document).ready(function() {
     const person = $("input#name").val();
     let question2 = $("#question2").val();
     let question3 = $("#question3").val();
-    let question5 = $("#quesiton5").val();
+    let question5 = $("#question5").val();
     let question6 = $("#question6").val();
 
     $(".name").text(person);
@@ -29,7 +29,7 @@ $(document).ready(function() {
       $("#app").show();
     }
 
-    else if (question5 === "yes"); {
+    else if (question5 === "yes") {
       $("#react").show(); 
       $("#app").show();
     }
