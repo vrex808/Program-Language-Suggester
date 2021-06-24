@@ -14,7 +14,7 @@ $(document).ready(function() {
       $("#javascript").show(); 
       $("#app").show();
 
-    } else if (question2 === "yes" && question3 === "yes" && question6 === "yes") {
+    } else if (question2 === "yes") {
       $("#csharp").show(); 
       $("#app").show();
     }
